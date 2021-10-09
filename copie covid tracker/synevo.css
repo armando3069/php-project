@@ -1,0 +1,14 @@
+
+img{
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#imagew
+{
+    display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 820px;
+            width: 1200px;
+}

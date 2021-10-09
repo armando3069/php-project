@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CovidForce</title>
+<link rel="icon" href="https://images.squarespace-cdn.com/content/v1/5c4085e585ede1f50f94a4b9/1581018457505-JM3FO6WMFN9BGP3IOE8D/ke17ZwdGBToddI8pDm48kL5hQm_JZO5i_9Equza1B-57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URbcWFoTofQNHE0Fe4ADwtkYw2N2aveJw6FaFCcRrQmU3WUfc_ZsVm9Mi1E6FasEnQ/2019-nCoV-CDC-23312_without_background.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/modernizr.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="admin.css">
+
+</head> 
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+	<a href="home.html" class="navbar-brand">Covid<b>Force</b></a>  		
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+		<div class="navbar-nav">
+			<a href="home.html" class="nav-item nav-link ">Acasa</a>
+			<a href="covid-date.php" class="nav-item nav-link">Cazuri de covid</a>			
+			<div class="nav-item dropdown">
+				<a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active">Servicii</a>
+				<div class="dropdown-menu">					
+          <a href="sondaj.html" class="dropdown-item ">Vaccinare</a>
+          <a href="enter.html" class="dropdown-item ">Test Covid</a>
+					<a href="Bmi.html" class="dropdown-item ">BMI Calculator</a>
+					<a href="chat.html" class="dropdown-item ">Medic-chat-Forum</a>
+					<a href="admin.html" class="dropdown-item  active">Admin</a>
+
+                </div>
+            </div>
+			<a href="https://www.google.com/search?rlz=1C5CHFA_enMD949MD949&sxsrf=ALeKk00Yg0eMlJ7vy8RdRN3rZMfe51iPjA:1619375176068&q=covid+news&lco=ro:1&lr=lang_ro&lrs=0&sa=X&ved=2ahUKEwiupYLRgprwAhWGl4sKHaYcCZoQ-PEFKAB6BAgBEDU&biw=1440&bih=788" class="nav-item nav-link">Stiri</a>
+			<a href="map.html" class="nav-item nav-link ">Map Covid</a>
+			<a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+		
+	</div>
+</nav>
+
+<br>
+<br>
+<br>
+
+<div class="signup-form">
+      <form action="admin.php" method="post">
+        <h2>Admin</h2>
+
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            name="n"
+            placeholder="user_name"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-control"
+            name="p"
+            placeholder="parola"
+            required="required"
+          />
+        </div>
+        <div class="form-group">
+          <label class="form-check-label"
+            ><input type="checkbox" required="required" /> Accept
+            <a href="#">Termeni de administrator</a>
+          </label>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success btn-lg btn-block">
+            Conectare
+          </button>
+        </div>
+      </form>
+    </div>
+
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

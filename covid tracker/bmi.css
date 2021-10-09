@@ -1,0 +1,175 @@
+
+body {
+    background-image: url(https://www.pilotpartners.com.au/wp-content/uploads/2019/08/iStock-1001713236-medical-plain.jpg);
+}
+.navbar {
+	font-size: 14px;
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);		
+}
+.navbar .navbar-brand {
+	color: #555;
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.navbar .navbar-brand b {
+	color: #f04f01;
+}
+.navbar .navbar-nav a {
+	font-size: 96%;
+	font-weight: bold;		
+	text-transform: uppercase;
+}
+.navbar .navbar-nav a.active {
+	color: #f04f01 !important;
+	background: transparent !important;
+}
+.search-box input.form-control, .search-box .btn {
+	font-size: 14px;
+	border-radius: 2px !important;
+}
+.search-box .input-group-append {
+	padding-left: 4px;		
+}
+.search-box input.form-control:focus {
+	border-color: #f04f01;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn-danger, .search-box .btn-danger:active {
+	font-weight: bold;
+	background: #f04f01 !important;
+	border-color: #f04f01;
+	text-transform: uppercase;
+	min-width: 90px;
+}
+.search-box .btn-danger:hover, .search-box .btn-danger:focus {
+	background: #eb4e01 !important;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn span {
+	transform: scale(0.9);
+	display: inline-block;
+}
+.navbar .nav-item.open > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a, .navbar .dropdown-menu a:active {
+	color: #777;
+	padding: 8px 20px;
+	font-size: 13px;
+  	background: #fff;
+}
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+	color: #333;
+  	background: #f8f9fa;
+}
+.ml7 {
+	position: relative;
+	font-weight: 900;
+	font-size: 3.7em;
+  }
+  .ml7 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.2em;
+	padding-right: 0.05em;
+	padding-bottom: 0.1em;
+	overflow: hidden;
+  }
+  .ml7 .letter {
+	transform-origin: 0 100%;
+	display: inline-block;
+	line-height: 1em;
+  }
+  .letters
+  {
+	  color: azure;
+  }
+
+@media (min-width: 992px){
+	.form-inline .input-group .form-control {
+		width: 225px;			
+	}
+}
+@media (max-width: 992px){
+	.form-inline {
+		display: block;
+	}
+}
+#arr 
+{
+    display: grid;
+            grid-template-columns: repeat(5, 90px);
+            grid-auto-rows: 50px;
+            grid-gap: 10px;
+            width: 516px;
+}
+img
+{
+    margin-top: 50px;
+    flex: 0 0 50px;
+}
+
+.cont
+{
+    background-color: rgb(27, 240, 222);
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin-left: 800px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+.kg
+{
+ width: 200px;
+ height: 40px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+#te
+{
+    margin-left: 40px;
+}
+form
+{
+    margin-left: 10px;
+}
+.cm 
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+#demo 
+{
+
+ margin-top: 300px;
+ margin-left: 5px;
+}
+
+.btn
+{
+ margin-left: 50px;
+ width: 100px;
+ height: 40px;
+ border-color: black;
+ border-style: solid;
+ background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
